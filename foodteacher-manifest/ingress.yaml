@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:  
+  name: fe-ingress
+  annotations:
+    cert-manager.io/cluster-issuer: "letsencrypt"
+    cert-manager.io/acme-challenge-type: http01 
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  ingressClassName: nginx
+  tls:
+    - hosts:
+      - foodteacher.xyz
+      secretName: foodteacher-tls
+  rules:
+    - host: foodteacher.xyz
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fe-external 
+                port:
+                  number: 80
