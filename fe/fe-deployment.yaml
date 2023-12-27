@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: fe
+  name: fe
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fe
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: fe
+    spec:
+      imagePullSecrets:
+      - name: fe-regcred
+      containers:
+      - image: gracehpark/foodteacher-fe:latest
+        name: fe
+        ports: # 컨테이너가 개방할 포트 정의. 정의 안하면 자동 할당
+        - containerPort: 3000
+~                               
