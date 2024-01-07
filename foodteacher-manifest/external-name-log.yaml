@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+  name: log-external
+spec:
+  type: ExternalName
+
+  # {Service Name}.{Namespace}.svc.cluster.local 형식으로 작성
+  externalName: kibana-svc.efk.svc.cluster.local

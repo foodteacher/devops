@@ -11,6 +11,8 @@ spec:
   tls:
     - hosts:
       - foodteacher.xyz
+      - www.foodteacher.xyz
+      - api.foodteacher.xyz
       secretName: foodteacher-tls
   rules:
     - host: foodteacher.xyz
@@ -21,5 +23,25 @@ spec:
             backend:
               service:
                 name: fe-external 
+                port:
+                  number: 80
+    - host: www.foodteacher.xyz
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: fe-external
+                port:
+                  number: 80
+    - host: api.foodteacher.xyz
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: be-external
                 port:
                   number: 80

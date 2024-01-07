@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: be-configmap
+  namespace: be
+data:
+  OPENAI_API_KEY: "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"
+

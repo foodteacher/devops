@@ -1,0 +1,372 @@
+nohup: ignoring input
+Forwarding from 0.0.0.0:8000 -> 3306
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0105 15:42:31.786294 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/05 15:42:31 socat[2023121] E write(5, 0x55e8dc398ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+E0105 15:42:32.614197 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->143.110.182.33:40018: read: connection reset by peer
+E0105 15:42:32.616478 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/05 15:42:32 socat[2023123] E write(5, 0x560654d48ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+E0105 15:42:33.456223 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/05 15:42:33 socat[2023125] E write(5, 0x5633d7775ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0105 16:52:58.142969 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/05 16:52:58 socat[2038847] E write(5, 0x55aaeedc3ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0105 17:56:03.589177 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->185.170.144.3:65296: read: connection reset by peer
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0105 22:32:24.318489 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52769: read: connection timed out
+E0105 22:45:33.053761 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52751: read: no route to host
+E0105 22:45:33.055242 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52751: write tcp4 10.182.0.2:8000->124.111.181.87:52751: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 00:35:49.374937 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:54689: read: connection timed out
+E0106 00:35:49.375018 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:54690: read: connection timed out
+E0106 00:35:49.377090 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:54689: write tcp4 10.182.0.2:8000->124.111.181.87:54689: write: broken pipe
+E0106 00:35:49.378279 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:54690: write tcp4 10.182.0.2:8000->124.111.181.87:54690: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 01:12:19.678678 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->164.52.36.211:35767: read: connection reset by peer
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 01:47:09.821209 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 01:47:09 socat[2157980] E write(5, 0x55cde18d5ee0, 7): Broken pipe
+Handling connection for 8000
+E0106 02:39:04.446209 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->106.246.106.13:55382: read: connection timed out
+E0106 02:39:04.450005 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->106.246.106.13:55382: write tcp4 10.182.0.2:8000->106.246.106.13:55382: write: broken pipe
+E0106 02:39:04.957815 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->106.246.106.13:55383: read: connection timed out
+E0106 02:39:04.959668 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->106.246.106.13:55383: write tcp4 10.182.0.2:8000->106.246.106.13:55383: write: broken pipe
+E0106 02:39:06.749654 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->106.246.106.13:54780: read: connection timed out
+E0106 02:39:06.752682 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->106.246.106.13:54780: write tcp4 10.182.0.2:8000->106.246.106.13:54780: write: broken pipe
+E0106 02:40:40.189835 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->106.246.106.13:54767: read: connection timed out
+E0106 02:40:40.191883 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->106.246.106.13:54767: write tcp4 10.182.0.2:8000->106.246.106.13:54767: write: broken pipe
+Handling connection for 8000
+E0106 03:44:39.176870 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->167.94.145.57:51648: read: connection reset by peer
+E0106 03:44:39.180706 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->167.94.145.57:51648: write tcp4 10.182.0.2:8000->167.94.145.57:51648: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 06:13:28.406251 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 06:13:28 socat[2223806] E write(5, 0x555744c71ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 06:30:55.230181 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->116.122.227.7:57101: read: connection timed out
+E0106 06:30:55.232435 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->116.122.227.7:57101: write tcp4 10.182.0.2:8000->116.122.227.7:57101: write: broken pipe
+E0106 06:31:01.373663 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->116.122.227.7:57281: read: connection timed out
+E0106 06:31:01.375749 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->116.122.227.7:57281: write tcp4 10.182.0.2:8000->116.122.227.7:57281: write: broken pipe
+E0106 06:31:01.377590 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->116.122.227.7:57287: read: connection timed out
+E0106 06:31:01.377669 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->116.122.227.7:57107: read: connection timed out
+E0106 06:31:01.378668 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->116.122.227.7:57287: write tcp4 10.182.0.2:8000->116.122.227.7:57287: write: broken pipe
+E0106 06:31:01.380079 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->116.122.227.7:57107: write tcp4 10.182.0.2:8000->116.122.227.7:57107: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 08:15:00.877370 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->116.122.227.192:61821: read: connection reset by peer
+E0106 08:15:00.878918 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->116.122.227.192:61821: write tcp4 10.182.0.2:8000->116.122.227.192:61821: write: broken pipe
+Handling connection for 8000
+E0106 08:52:53.886510 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->116.122.227.192:58055: read: connection timed out
+E0106 08:52:53.886514 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->116.122.227.192:58056: read: connection timed out
+E0106 08:52:53.889934 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->116.122.227.192:58055: write tcp4 10.182.0.2:8000->116.122.227.192:58055: write: broken pipe
+E0106 08:52:53.891292 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->116.122.227.192:58056: write tcp4 10.182.0.2:8000->116.122.227.192:58056: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 11:22:26.449076 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->192.155.88.231:33455: read: connection reset by peer
+E0106 11:22:26.451458 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->192.155.88.231:33455: write tcp4 10.182.0.2:8000->192.155.88.231:33455: write: broken pipe
+Handling connection for 8000
+E0106 11:45:03.988357 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 11:45:03 socat[2300758] E write(5, 0x5563af82eee0, 7): Broken pipe
+E0106 11:47:13.789787 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:51895: read: connection timed out
+E0106 11:47:13.789937 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:51896: read: connection timed out
+E0106 11:47:13.791360 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:51895: write tcp4 10.182.0.2:8000->124.111.181.87:51895: write: broken pipe
+E0106 11:47:13.795027 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:51896: write tcp4 10.182.0.2:8000->124.111.181.87:51896: write: broken pipe
+Handling connection for 8000
+E0106 11:59:00.366082 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->45.33.87.154:45066: read: connection reset by peer
+E0106 11:59:00.373980 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->45.33.87.154:45066: write tcp4 10.182.0.2:8000->45.33.87.154:45066: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 14:02:48.156802 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 14:02:48 socat[2332892] E write(5, 0x558423d45ee0, 7): Broken pipe
+Handling connection for 8000
+E0106 14:02:48.588130 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->159.65.147.175:37486: read: connection reset by peer
+E0106 14:02:48.590105 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 14:02:48 socat[2332893] E write(5, 0x55fdfd3bcee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+E0106 14:02:49.466660 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 14:02:49 socat[2332895] E write(5, 0x5614d2978ee0, 7): Broken pipe
+Handling connection for 8000
+E0106 14:02:49.895322 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 14:02:49 socat[2332903] E write(5, 0x55b54b4eaee0, 7): Broken pipe
+Handling connection for 8000
+E0106 14:15:31.428335 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:51359: read: connection reset by peer
+E0106 14:15:31.430059 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:51359: write tcp4 10.182.0.2:8000->124.111.181.87:51359: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 14:50:00.573743 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:61501: read: connection timed out
+E0106 14:50:00.574202 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:61462: read: connection timed out
+E0106 14:50:00.575821 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:61501: write tcp4 10.182.0.2:8000->124.111.181.87:61501: write: broken pipe
+E0106 14:50:00.578982 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:61462: write tcp4 10.182.0.2:8000->124.111.181.87:61462: write: broken pipe
+E0106 14:50:05.181757 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:51807: read: connection timed out
+E0106 14:50:05.183193 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:51807: write tcp4 10.182.0.2:8000->124.111.181.87:51807: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0106 19:20:00.509779 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:51996: read: connection timed out
+E0106 19:20:00.511458 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:51996: write tcp4 10.182.0.2:8000->124.111.181.87:51996: write: broken pipe
+E0106 19:20:00.765750 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52045: read: connection timed out
+E0106 19:20:00.767886 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52045: write tcp4 10.182.0.2:8000->124.111.181.87:52045: write: broken pipe
+Handling connection for 8000
+E0106 20:27:44.002034 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/06 20:27:43 socat[2420917] E write(5, 0x5582ee5f9ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+E0106 22:23:39.517748 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52303: read: connection timed out
+E0106 22:23:39.520207 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52303: write tcp4 10.182.0.2:8000->124.111.181.87:52303: write: broken pipe
+E0106 22:23:40.545655 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52373: read: connection timed out
+E0106 22:23:40.547600 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52373: write tcp4 10.182.0.2:8000->124.111.181.87:52373: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+E0106 23:47:52.445906 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52478: read: connection timed out
+E0106 23:47:52.447804 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52478: write tcp4 10.182.0.2:8000->124.111.181.87:52478: write: broken pipe
+E0106 23:47:52.449770 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52556: read: connection timed out
+E0106 23:47:52.451037 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52556: write tcp4 10.182.0.2:8000->124.111.181.87:52556: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 03:28:45.054946 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->112.169.211.109:53213: read: connection timed out
+E0107 03:28:45.057633 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->112.169.211.109:53213: write tcp4 10.182.0.2:8000->112.169.211.109:53213: write: broken pipe
+E0107 03:28:45.057703 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->112.169.211.109:53216: read: connection timed out
+E0107 03:28:45.060731 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->112.169.211.109:53216: write tcp4 10.182.0.2:8000->112.169.211.109:53216: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 05:17:07.868590 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->62.122.184.188:65189: read: connection reset by peer
+Handling connection for 8000
+Handling connection for 8000
+E0107 05:41:29.486562 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/07 05:41:29 socat[2548193] E write(5, 0x55b95b9afee0, 7): Broken pipe
+Handling connection for 8000
+E0107 05:44:48.277928 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->162.142.125.224:45332: read: connection reset by peer
+E0107 05:44:48.280084 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->162.142.125.224:45332: write tcp4 10.182.0.2:8000->162.142.125.224:45332: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+E0107 06:04:40.807802 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->62.122.184.188:64523: read: connection reset by peer
+Handling connection for 8000
+E0107 06:39:33.214542 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->112.169.211.109:59827: read: connection reset by peer
+E0107 06:39:33.216516 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->112.169.211.109:59827: write tcp4 10.182.0.2:8000->112.169.211.109:59827: write: broken pipe
+Handling connection for 8000
+E0107 07:42:47.293828 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->112.169.211.109:54129: read: connection timed out
+E0107 07:42:47.293850 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->112.169.211.109:54147: read: connection timed out
+E0107 07:42:47.295981 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->112.169.211.109:54129: write tcp4 10.182.0.2:8000->112.169.211.109:54129: write: broken pipe
+E0107 07:42:47.297985 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->112.169.211.109:54147: write tcp4 10.182.0.2:8000->112.169.211.109:54147: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 09:19:01.340998 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->212.70.149.146:64304: read: connection reset by peer
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 09:53:59.486411 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->212.70.149.146:64363: read: connection reset by peer
+Handling connection for 8000
+E0107 10:09:09.264682 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->14.32.105.166:64334: read: connection reset by peer
+E0107 10:09:09.266324 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->14.32.105.166:64334: write tcp4 10.182.0.2:8000->14.32.105.166:64334: write: broken pipe
+Handling connection for 8000
+E0107 10:09:46.774229 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->14.32.105.166:64365: read: connection reset by peer
+E0107 10:09:46.776208 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->14.32.105.166:64365: write tcp4 10.182.0.2:8000->14.32.105.166:64365: write: broken pipe
+Handling connection for 8000
+E0107 10:25:22.920210 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->62.122.184.188:63508: read: connection reset by peer
+Handling connection for 8000
+E0107 10:28:21.365137 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->212.70.149.146:64036: read: connection reset by peer
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 11:14:10.885256 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->62.122.184.188:65361: read: connection reset by peer
+E0107 11:17:08.286939 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->14.32.105.166:50429: read: connection reset by peer
+E0107 11:17:08.288671 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->14.32.105.166:50429: write tcp4 10.182.0.2:8000->14.32.105.166:50429: write: broken pipe
+Handling connection for 8000
+E0107 11:45:34.717728 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->14.32.105.166:61924: read: connection timed out
+E0107 11:45:34.719486 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->14.32.105.166:61924: write tcp4 10.182.0.2:8000->14.32.105.166:61924: write: broken pipe
+E0107 11:45:34.721595 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->14.32.105.166:61912: read: connection timed out
+E0107 11:45:34.723033 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->14.32.105.166:61912: write tcp4 10.182.0.2:8000->14.32.105.166:61912: write: broken pipe
+Handling connection for 8000
+E0107 11:47:21.301838 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->45.79.181.179:62072: read: connection reset by peer
+E0107 11:47:21.304007 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/07 11:47:21 socat[2640126] E write(5, 0x5617627bcee0, 7): Broken pipe
+Handling connection for 8000
+E0107 11:52:59.950872 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->45.33.87.154:36235: read: connection reset by peer
+E0107 11:52:59.953234 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->45.33.87.154:36235: write tcp4 10.182.0.2:8000->45.33.87.154:36235: write: broken pipe
+Handling connection for 8000
+E0107 12:03:00.860380 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->62.122.184.188:64087: read: connection reset by peer
+Handling connection for 8000
+Handling connection for 8000
+E0107 12:34:43.037390 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->172.104.210.105:60299: read: connection reset by peer
+E0107 12:34:43.039523 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->172.104.210.105:60299: write tcp4 10.182.0.2:8000->172.104.210.105:60299: write: broken pipe
+Handling connection for 8000
+E0107 13:22:28.954691 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/07 13:22:28 socat[2661120] E write(5, 0x55735feb8ee0, 7): Broken pipe
+Handling connection for 8000
+E0107 13:22:29.283502 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/07 13:22:29 socat[2661121] E write(5, 0x56117d571ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+E0107 13:22:29.921740 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/07 13:22:29 socat[2661144] E write(5, 0x5564740eeee0, 7): Broken pipe
+Handling connection for 8000
+E0107 13:22:30.245985 2019674 portforward.go:400] an error occurred forwarding 8000 -> 3306: error forwarding port 3306 to pod 861e34fe0f2d9ee4228707044d86b598fbc16dbc5ea666f740576a190aac34d0, uid : exit status 1: 2024/01/07 13:22:30 socat[2661145] E write(5, 0x55898a277ee0, 7): Broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 13:33:56.870753 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:51294: read: connection reset by peer
+E0107 13:33:56.872653 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:51294: write tcp4 10.182.0.2:8000->124.111.181.87:51294: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 14:32:01.277850 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:50891: read: connection timed out
+E0107 14:32:01.279936 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:50891: write tcp4 10.182.0.2:8000->124.111.181.87:50891: write: broken pipe
+E0107 14:32:02.045686 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:50915: read: connection timed out
+E0107 14:32:02.047966 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:50915: write tcp4 10.182.0.2:8000->124.111.181.87:50915: write: broken pipe
+Handling connection for 8000
+E0107 14:43:09.699434 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->167.94.138.49:39768: read: connection reset by peer
+E0107 14:43:09.701578 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->167.94.138.49:39768: write tcp4 10.182.0.2:8000->167.94.138.49:39768: write: broken pipe
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
+E0107 15:07:58.849700 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52755: read: connection timed out
+E0107 15:07:58.851644 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52755: write tcp4 10.182.0.2:8000->124.111.181.87:52755: write: broken pipe
+E0107 15:07:59.105706 2019674 portforward.go:385] error copying from local connection to remote stream: read tcp4 10.182.0.2:8000->124.111.181.87:52775: read: connection timed out
+E0107 15:07:59.107276 2019674 portforward.go:372] error copying from remote stream to local connection: readfrom tcp4 10.182.0.2:8000->124.111.181.87:52775: write tcp4 10.182.0.2:8000->124.111.181.87:52775: write: broken pipe
