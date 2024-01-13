@@ -22,14 +22,16 @@ spec:
         name: fe
         ports: # 컨테이너가 개방할 포트 정의. 정의 안하면 자동 할당
         - containerPort: 3000
-        env:
-        - name: NEXT_PUBLIC_API_URL 
-          valueFrom:
-            configMapKeyRef:
-              name: fe-configmap
-              key: NEXT_PUBLIC_API_URL 
-        - name: NEXT_PUBLIC_KAKAO_REST_KEY 
-          valueFrom:
-            configMapKeyRef:
-              name: fe-configmap
-              key: NEXT_PUBLIC_KAKAO_REST_KEY  
+        volumeMounts:
+        - mountPath: /app/.env.local
+          name: env-local
+          readOnly: true
+          subPath: .env.local
+      volumes:
+      - configMap:
+          defaultMode: 420
+          items:
+          - key: .env
+            path: .env.local
+          name: env-local
+        name: env-local
