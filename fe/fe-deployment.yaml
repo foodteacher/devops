@@ -23,7 +23,7 @@ spec:
         ports: # 컨테이너가 개방할 포트 정의. 정의 안하면 자동 할당
         - containerPort: 3000
         volumeMounts:
-        - mountPath: /app/.env.local
+        - mountPath: /app/.env
           name: fe-configmap
           readOnly: true
           subPath: .env.local
@@ -32,6 +32,6 @@ spec:
           defaultMode: 420
           items:
           - key: .env
-            path: .env.local
+            path: .env
           name: fe-configmap
         name: fe-configmap
