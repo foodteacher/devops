@@ -24,7 +24,7 @@ spec:
         - containerPort: 3000
         volumeMounts:
         - mountPath: /app/.env.local
-          name: env-local
+          name: fe-configmap
           readOnly: true
           subPath: .env.local
       volumes:
@@ -34,4 +34,4 @@ spec:
           - key: .env
             path: .env.local
           name: fe-configmap
-        name: env-local
+        name: fe-configmap
