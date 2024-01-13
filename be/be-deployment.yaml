@@ -30,10 +30,5 @@ spec:
             configMapKeyRef:
               name: be-configmap
               key: OPENAI_API_KEY
-        - name: ENVIRONMENT
-          valueFrom:
-            configMapKeyRef:
-              name: be-configmap
-              key: ENVIRONMENT
         - name: UVICORN_CMD
           value: "uvicorn app.main:app --host 0.0.0.0 --port 8000"
