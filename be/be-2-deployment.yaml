@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: be-2
+  name: be
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: be-2
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: be-2
+    spec:
+      imagePullSecrets:
+      - name: be-regcred
+      containers:
+      - image: gracehpark/foodteacher-be:ac4aef6dd7499743c374b49e9de4f9634f5417c5
+        name: be-2
+        ports: # 컨테이너가 개방할 포트 정의. 정의 안하면 자동 할당
+        - containerPort: 8000
+        env: # 컨테이너 환경 변수
+        - name: OPENAI_API_KEY
+          valueFrom:
+            configMapKeyRef:
+              name: be-configmap
+              key: OPENAI_API_KEY
+        - name: UVICORN_CMD
+          value: "uvicorn app.main:app --host 0.0.0.0 --port 8000"
