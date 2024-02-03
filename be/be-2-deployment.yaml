@@ -4,7 +4,7 @@ metadata:
   creationTimestamp: null
   labels:
     app: be-2
-  name: be
+  name: be-2
 spec:
   replicas: 1
   selector:
