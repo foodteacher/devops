@@ -18,7 +18,7 @@ spec:
       imagePullSecrets:
       - name: fe-regcred
       containers:
-      - image: gracehpark/foodteacher-fe-2:b5eebbb3851fc95b5eb46fca873408fcba948984
+      - image: gracehpark/foodteacher-fe-2:699208c41614fc631ac2306629f760217e5e8053
         name: fe-2
         ports: # 컨테이너가 개방할 포트 정의. 정의 안하면 자동 할당
         - containerPort: 3000
