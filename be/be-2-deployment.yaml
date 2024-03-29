@@ -20,7 +20,7 @@ spec:
       imagePullSecrets:
       - name: be-regcred
       containers:
-      - image: gracehpark/foodteacher-be-2:93a76199cba332f97c6e43b02a452a5a353761d8
+      - image: gracehpark/foodteacher-be-2:3d41ef478b8614fef2c1fc1391ed1f916a9c39cc
         name: be-2
         ports: # 컨테이너가 개방할 포트 정의. 정의 안하면 자동 할당
         - containerPort: 8000
